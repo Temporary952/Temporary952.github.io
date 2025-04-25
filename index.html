@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Developer Website</title>
-</head>
-<body>
-    <h1>Welcome to My Developer Website</h1>
-    <p>This is where you can learn more about my apps and content.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swick — Discover Games Instantly</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-900 font-sans">
+    <!-- Navbar -->
+    <header class="p-4 border-b flex justify-between items-center max-w-6xl mx-auto">
+      <h1 class="text-2xl font-bold text-blue-600">Swick</h1>
+      <nav class="space-x-6 text-sm font-medium">
+        <a href="#features" class="hover:text-blue-600">Features</a>
+        <a href="#developers" class="hover:text-blue-600">Developers</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-24 px-4 text-center max-w-3xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+        Discover and Play Games Instantly
+      </h2>
+      <p class="text-gray-600 text-lg mb-8">
+        Swick is your gateway to quick, fun, and addictive games — just like scrolling through TikTok, but for games.
+      </p>
+      <a
+        href="#"
+        class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition"
+        >Get Started</a
+      >
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-20 bg-gray-50 px-4">
+      <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-10 text-center">
+        <div>
+          <div class="text-blue-600 text-4xl mb-4">⚡</div>
+          <h3 class="text-xl font-semibold mb-2">Instant Access</h3>
+          <p class="text-gray-600">No downloads. Open, swipe, and play right away.</p>
+        </div>
+        <div>
+          <div class="text-blue-600 text-4xl mb-4">🎮</div>
+          <h3 class="text-xl font-semibold mb-2">Personalized Feed</h3>
+          <p class="text-gray-600">Smart suggestions based on what you like to play.</p>
+        </div>
+        <div>
+          <div class="text-blue-600 text-4xl mb-4">🌐</div>
+          <h3 class="text-xl font-semibold mb-2">For Developers</h3>
+          <p class="text-gray-600">Easily upload and reach players instantly.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Developer Call to Action -->
+    <section id="developers" class="py-20 px-4 text-center">
+      <div class="max-w-2xl mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Are you a Game Developer?</h2>
+        <p class="text-gray-600 mb-6">
+          Reach new players instantly. Swick helps indie devs grow with real-time analytics and seamless game publishing.
+        </p>
+        <a
+          href="#"
+          class="bg-gray-900 text-white px-6 py-3 rounded-full font-medium hover:bg-gray-700 transition"
+          >Publish Your Game</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-100 py-8 text-center text-sm text-gray-500">
+      <p>&copy; 2025 Swick. All rights reserved.</p>
+      <p>Built by developers, for gamers.</p>
+    </footer>
+  </body>
 </html>
